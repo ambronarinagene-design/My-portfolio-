@@ -112,12 +112,13 @@ h2 {
 }
 
 .gallery img {
-  width: 300px;
+  width: calc(32.33 - 5px);
   height: 200px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 8px;
 
 }
+
 
 
 
