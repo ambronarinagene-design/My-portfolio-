@@ -112,8 +112,9 @@ h2 {
 }
 
 .gallery img {
-  width: calc(33.33% - 10px);
+  width: 200px;
   height: 100px;
   object-fit: cover;
   border-radius: 10px;
+
 }
