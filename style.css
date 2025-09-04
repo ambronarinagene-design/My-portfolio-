@@ -139,16 +139,14 @@ h2 {
 .contact-section {
       text-align: center;
       padding: 40px 20px;
-      background: url('https://picsum.photos/1200/400') no-repeat center/cover;
       color: white;
     }
-
-    .contact-section h2 {
+.contact-section h2 {
       font-size: 28px;
       margin-bottom: 10px;
     }
 
-    .contact-section p {
+.contact-section p {
       max-width: 600px;
       margin: auto;
       font-size: 16px;
@@ -213,4 +211,5 @@ h2 {
       margin: 4px 0;
       color: #555;
     }
+
 
