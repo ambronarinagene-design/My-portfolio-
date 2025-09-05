@@ -4,12 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background: #000;
-  color: #000;
-}
+
 
 .logo {
   font-size: 1.9rem;
@@ -46,11 +41,6 @@ body {
   padding: 100px 50px;
   text-align: center;
 }
-
-.section:nth-child(odd) {
-  background: #fff;
-}
-
 .background-video {
   position: fixed;
   top: 0;
@@ -384,6 +374,7 @@ h2 {
       margin: 4px 0;
       color: #555;
     }
+
 
 
 
