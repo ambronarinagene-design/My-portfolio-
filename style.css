@@ -94,18 +94,14 @@
   line-height: 1.6;
 }
 
-.section {
+. about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 10%;
   height: 100vh;
-  padding: 100px 50px;
-  text-align: center;
-}
-
-.section:nth-child(even) {
-  background: lightgray;
-}
-
-.section:nth-child(odd) {
-  background: #fff;
+  background: rgb(255, 7, 131);
+  color: #fff;
 }
 
 
@@ -277,6 +273,7 @@ h2 {
       margin: 4px 0;
       color: #555;
     }
+
 
 
 
