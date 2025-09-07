@@ -100,7 +100,7 @@
   justify-content: center;
   padding: 80px 10%;
   height: 100vh;
-  background: rgb(255, 7, 131);
+  background: white;
   color: #fff;
 }
 
@@ -273,6 +273,7 @@ h2 {
       margin: 4px 0;
       color: #555;
     }
+
 
 
 
