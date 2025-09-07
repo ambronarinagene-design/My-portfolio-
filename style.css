@@ -171,83 +171,89 @@ h2 {
   height: 100px;
   object-fit: cover;
   border-radius: 10px;
-
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
+
+.gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
 .contact-section {
-      text-align: center;
-      padding: 40px 20px;
-      color: white;
+  text-align: center;
+  padding: 40px 20px;
+  color: white;
     }
 .contact-section h2 {
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
+  font-size: 28px;
+  margin-bottom: 10px;
+}
 
 .contact-section p {
-      max-width: 600px;
-      margin: auto;
-      font-size: 16px;
-    }
+  max-width: 600px;
+  margin: auto;
+  font-size: 16px;
+}
 
 .form-container {
-      background: white;
-      max-width: 600px;
-      margin: 20px auto;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+  background: white;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
 .form-container input,
 .form-container textarea {
-      width: 100%;
-      padding: 12px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 14px;
-    }
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
 
-    .form-container button {
-      background: #5aa0f2;
-      color: white;
-      border: none;
-      padding: 12px;
-      width: 100%;
-      border-radius: 6px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
+.form-container button {
+  background: #5aa0f2;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
-    .form-container button:hover {
-      background: #3d89db;
-    }
+.form-container button:hover {
+  background: #3d89db;
+}
 
-    .contact-info {
-      max-width: 600px;
-      margin: 20px auto;
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      text-align: left;
-    }
+.contact-info {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
 
-    .contact-info div {
-      margin: 10px 0;
-    }
+.contact-info div {
+  margin: 10px 0;
+}
 
-    .contact-info strong {
-      display: block;
-      font-size: 16px;
-      color: #333;
-    }
+.contact-info strong {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
 
-    .contact-info p {
-      margin: 4px 0;
-      color: #555;
-    }
+.contact-info p {
+  margin: 4px 0;
+  color: #555;
+}
 
 footer {
   background: #000;
@@ -256,6 +262,7 @@ footer {
   padding: 20px 0;
   font-size: 14px;
 }
+
 
 
 
