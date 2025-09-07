@@ -94,27 +94,32 @@
 }
 
 .about {
-  padding: 60px 20px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 15px;
+  max-width: 800px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
-.about-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-.about-img img {
-  width: 250px;
-  border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-.about-text {
-  max-width: 500px;
-}
-.about-text h2 {
-  font-size: 2rem;
+
+.about h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #222;
   margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.about span {
+  font-weight: bold;
+  color: #ff1493; /* pink highlight para match sa nav mo */
 }
 
 .skills {
@@ -258,6 +263,7 @@ h2 {
       margin: 4px 0;
       color: #555;
     }
+
 
 
 
