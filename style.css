@@ -101,7 +101,6 @@
 .about-content {
   text-align: right;   
   color: #222;  
-  text-background:white;
 }
 
 .skills {
@@ -120,7 +119,7 @@
 }
 
 .progress {
-  background: #ddd;
+  background: white;
   border-radius: 20px;
   overflow: hidden;
   height: 20px;
@@ -262,6 +261,7 @@ footer {
   padding: 20px 0;
   font-size: 14px;
 }
+
 
 
 
